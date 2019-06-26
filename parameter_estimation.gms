@@ -94,7 +94,6 @@ V_omega_comp(cid) model angular compromise frequency of the states per hour
 V_omega(cid,osc) model angular frequency of the states per hour
 V_K(osc1,osc2) Coupling matrix
 V_omegasame(osc)
-V_zero(cid) For estimating the left out condition
 ;
 
 scalar
