@@ -1,4 +1,4 @@
-# Coupled-oscillator-system
+# Parameter estimation for Kuramoto model of metabolic and cell cycle oscillators 
 This repository contains the code necessary to estimate the parameters for Kuramoto model of cell cycle and metabolic oscillators. Parameter estimation part is written in GAMS and the simulation part is written in MATLAB. 
 - `input.gdx`: This is the measured input to the optimization problem which consists for phase differences and frequencies. It is in GDX format which is the standard data input format of GAMS. 
 - `parameter_estimation.gms`: This is the GAMS script to perform the multistart optimizations to estimate the parameters of the coupled oscillators system. 
