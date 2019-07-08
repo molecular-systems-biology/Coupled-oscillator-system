@@ -1,7 +1,12 @@
+* --------------------------------------------------------------------------
 * Parameter estimation problem with stability constraints for Kuramoto model 
 * of metabolic and cell cycle oscillators 
+*
 * 13th June 2019
 * Serdar Ozsezen
+* --------------------------------------------------------------------------
+* Remarks:
+* Notation of coupling indices are inverse in this code (i.e. Ki,j).
 
 
 option reslim=30;
@@ -9,7 +14,7 @@ option reslim=30;
 sets
 cid conditions
 sid statistics
-samp /1*1000/
+samp /1*10000/
 osc /MET, G1, S, M/
 i /1*4/
 m /1*18/;
